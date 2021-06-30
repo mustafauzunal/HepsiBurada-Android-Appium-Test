@@ -1,0 +1,55 @@
+Created by testinium on 1.07.2021
+
+This is a concept file with following syntax for each concept.
+# Login sayfasına git
+* "com.pozitron.hepsiburada:id/account_icon" id li elemente tıkla
+* "com.pozitron.hepsiburada:id/llUserAccountLogin" id li elemente tıkla
+
+#<email> ve <password> girerek login butonuna tıklayıp login ol
+* "//*[@resource-id='txtUserName']" xpath li elemente <email> değerini yaz
+* "//*[@resource-id='txtPassword']" xpath li elemente <password> değerini yaz
+* "//*[@resource-id='btnLogin']" xpath li elemente tıkla
+
+# Kategoriler sayfasına git
+* "//*[@resource-id='android:id/button1']" xpath li elemente tıkla
+* "com.pozitron.hepsiburada:id/btnUserAccountClose" id li elemente tıkla
+* "com.pozitron.hepsiburada:id/nav_graph_category" id li elemente tıkla
+
+#Bilgisayar, Teknoloji, Elektronik sayfasına git
+* "//*[@resource-id='com.pozitron.hepsiburada:id/cardViewComponent'][6]" xpath li elemente tıkla
+
+#Laptop(Dizüstü-Notebook) sayfasına git
+* "//*[@resource-id='com.pozitron.hepsiburada:id/recyclerViewExpandItem']/android.view.ViewGroup[1]" xpath li elemente tıkla
+
+#Listeden ilk sıradaki sayfaya git
+* "//*[@resource-id ='com.pozitron.hepsiburada:id/iv_product_list_banner'][1]" xpath li elemente tıkla
+
+#İlk ürüne git
+* "//*[@content-desc='ürün fotoğrafı'][1]" xpath li elemente tıkla
+
+#Ürünü sepete ekle
+* "com.pozitron.hepsiburada:id/product_detail_add_to_cart" id li elemente tıkla
+
+#Sepete git
+* "com.pozitron.hepsiburada:id/goBasketBtn" id li elemente tıkla
+
+#Ürünü sepetten kaldır
+* "Ürünü Kaldır" accessibilityId li elemente tıkla
+
+#Sil butonuna tıkla
+* "//*[@text='Sil']" xpath li elemente tıkla
+
+#Keşfet sayfasına git
+* "//*[@content-desc='Keşfet']" xpath li elemente tıkla
+
+#Oturum butonuna tıkla
+* "com.pozitron.hepsiburada:id/account_icon" id li elemente tıkla
+
+#Çıkış yap butonuna tıkla ve logout ol
+* "com.pozitron.hepsiburada:id/ll_user_account_menu_logout" id li elemente tıkla
+* "5" kadar bekle
+
+
+
+
+
